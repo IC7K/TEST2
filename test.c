@@ -19,6 +19,6 @@ printf("%-10.1f\n",two);
 printf("%3.8d\n", 1000);
 
   printf("%f\n", two);
-  printf("%11f\n", two);
+  printf("%-7.03f\n", two);
   printf("%012f\n", two);	
 }
