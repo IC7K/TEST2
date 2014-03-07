@@ -20,8 +20,8 @@ printf("%3.8d\n", 1000);
 
   printf("%f\n", two);
   
-  printf("%10\n", two);  
-  printf("%3.1f\n", two);
+  printf("%10f\n", two);  
+  printf("%5.1f\n", two);
   
   printf("%012f\n", two);	
 }
