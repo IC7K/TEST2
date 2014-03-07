@@ -15,5 +15,10 @@ double one=123.55, two=10.123;
 printf("Primer Float\n");
 printf("%.1f\n",one);	
 printf("%3.1f\n",two);	
-printf("%-10.1f\n",two);	
+printf("%-10.1f\n",two);
+printf("%3.8d\n", 1000);
+
+  printf("%f\n", two);
+  printf("%10f\n", two);
+  printf("%012f\n", two);	
 }
